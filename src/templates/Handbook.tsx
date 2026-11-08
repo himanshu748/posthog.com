@@ -448,7 +448,7 @@ export default function Handbook({ data: { post, postHogSource }, pageContext: {
         IsUS,
         table: (props) => (
             <p>
-                <OverflowXSection>
+                <OverflowXSection readerGutters>
                     <table {...props} />
                 </OverflowXSection>
             </p>
